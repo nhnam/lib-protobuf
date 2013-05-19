@@ -3,7 +3,8 @@ Pod::Spec.new do |s|
   s.version      = "2.5.0"
   s.summary      = "Protobuf library for iOS."
   s.author       = { "goofansu" => "goofan.su@gmail.com" }
-  s.source       = { :git => "~/src/lib-protobuf" }
+  s.source       = { :git => "git://github.com/goofansu/lib-protobuf.git",
+                     :tag => "#{s.version}" }
 
   s.requires_arc = false
   s.source_files = 'config.h'
